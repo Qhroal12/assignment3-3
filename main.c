@@ -10,12 +10,6 @@ int main(int c, char** v) {
 		return 1;
 	}
 
-	// Debugging: Print the arguments received
-	printf("[DEBUG] Argument c: %d\n", c);
-	for (int i = 0; i < c; i++) {
-		printf("[DEBUG] Argument v[%d]: %s\n", i, v[i]);
-	}
-
 	printf("perimeter: %s, ", perimeter(v[1], v[2]));
 	printf("area: %s", area(v[1], v[2]));
 
